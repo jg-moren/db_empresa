@@ -1,0 +1,191 @@
+.table{
+	margin: auto;
+	max-width: calc(1vw + 50vh );
+	min-width: calc(50vw + 1vh );
+	border:10px solid cadetblue ;
+	border-radius: 30px;
+	margin-bottom: 50px;
+
+}
+
+.nomes_alter{
+ max-width: 25vh ;
+ min-width: 25vw ;
+ text-align: left;
+ height: 50px;
+ border-bottom: solid 1px gray;
+ font-size: calc(2vw + 1vh );
+}
+.sized_box{
+	height: 20px;
+}
+
+.values_alter{
+	border: 0;
+	width: 100%;
+	min-width: 25vw;
+	max-width: 100%;
+ 	text-align: left;
+ 	height: 50px;
+ 	border-bottom: solid 1px gray;
+ 	font-size: calc(2vw + 1vh );
+}
+
+.table_alter{
+	margin: auto;
+	max-width: calc(1vw + 50vh );
+	min-width: calc(50vw + 1vh );
+	border:10px solid cadetblue ;
+	border-radius: 30px;
+	margin-bottom: 50px;
+
+}
+
+.button_alter{
+	border:1px solid cadetblue ;
+	border-radius: 50px;	
+	height: 30px;
+	height: 5vh;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	font-size: 3vh;
+
+}
+
+.cabecalho{
+	background-color: red;
+
+}
+.cabecalho_valores{
+	width: 1000px;
+	height: 50px;
+	margin: 0px;
+	color: white;
+	font-weight: bold;
+	font-size: calc(2vh + 1vw);
+
+}
+
+.cabecalho_table{
+	background-color: cadetblue;
+}
+.valores_table{
+ font-size: calc(2vh + 1vw);
+}
+
+
+
+.button_table{
+	border-radius: 50px;	
+	height: 30px;
+	border: 0px;
+	height: 5vh;
+	width: 100%;
+	font-size: 3vh;
+
+}
+.button_add{
+	border-radius: 50px;	
+	height: 30px;
+	border: 0px;
+	height: 75%;
+	width: 50%;
+	margin-top:1.5vh; 
+	margin-left: 25%;
+	font-size: 5vh;
+}
+
+.valores_valores{
+ width: 1000px;
+ text-align: left;
+ height: 50px;
+ border-top: solid 1px gray;
+}
+.valores_text{
+}
+.valores_nomes{
+ width: 1000px;
+ text-align: left;
+ height: 50px;
+ border-top: solid 1px gray;
+}
+
+div.center{
+  text-align: center;
+  padding: 10px;
+}
+div.table_size{
+	height: 10vh;
+}
+
+header{
+	background-color: darkcyan;
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	text-align: center;
+}
+.show_button{
+	border-radius: 50px;	
+	height: 5vh;
+	width: 5vh;
+	border: 0px;
+	margin-left: 2.5vh;
+	margin-top: 2.5vh;
+	float: left;
+	font-size: 3vh;
+}
+
+.alpha_button{
+	border-radius: 50px;	
+	height: 5vh;
+	width: 5vh;
+	border: 0px;
+	margin-right: 2.5vh;
+	margin-top: 2.5vh;
+	float: right;
+	font-size: 3vh;
+}
+
+.title{
+	color: white;
+	font-size: 5vh;
+}
+
+footer{
+	background-color: darkcyan;
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	align-items: center;
+	font-size: 5vh;
+}
+
+.navigation{
+	background-color: gray ;
+	height: 7vh;
+	border: 0;
+	border-bottom: 1px solid black ;
+	width: 50vh;
+	max-width: 50vw;
+	color: black;
+	font-size: 3vh;
+}
+
+.dropdown-content{
+	background-color: gray;
+	left: 0;
+	top: 10vh;
+	height: 100%;
+	position: fixed;
+	display: none;
+}
+.show{
+	display: block;
+}
